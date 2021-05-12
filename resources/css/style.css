@@ -1,12 +1,46 @@
 body {
     background-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
 }
 
 /*oblikovanje HEADER elementa*/
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    font-size: 50px;
     color: white;
     text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+/* oblika linkov */
+#download-link, a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+/* oblikovanje predstavitvenegadela */
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: grey;
+}
+
+/* footer del*/
+/*oblikovanje copyright napisa*/
+#copyright {
+    text-align: right;
+    color: grey;
 }
